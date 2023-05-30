@@ -1,6 +1,7 @@
 import pandas as pd
 import utils
 
+#Instrument class stores values from the dictionary called ob
 class Instrument():
     def __init__(self, ob):
         self.name = ob['name']
